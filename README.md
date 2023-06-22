@@ -1,2 +1,8 @@
-# qa_java
-QA Java Project
+# Финальная практика 6 спринта
+
+## Технологии на проекте
+Mava 11  
+Maven 3.8.1  
+JUnit 4.13.2  
+Mockito 3.12.4  
+Jacoco 0.8.7  

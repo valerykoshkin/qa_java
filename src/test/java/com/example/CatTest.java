@@ -27,7 +27,7 @@ public class CatTest {
         when(feline.eatMeat()).thenReturn(List.of("Животные", "Птицы", "Рыба"));
         List<String> actual = cat.getFood();
         List<String> expected = List.of("Животные", "Птицы", "Рыба");
-        Assert.assertEquals(actual, expected);
+        Assert.assertEquals(expected, actual);
     }
 
     @Test

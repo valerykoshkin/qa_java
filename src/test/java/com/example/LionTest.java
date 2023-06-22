@@ -14,13 +14,9 @@ public class LionTest {
     @Mock
     Feline feline;
 
-    @Test
-    public void lionCostructorShouldBeNegativeTest() {
-        try {
-            new Lion("Кот", feline);
-        } catch (Exception exception){
-            System.out.println("Используйте допустимые значения пола животного - самей или самка");
-        }
+    @Test(expected = Exception.class)
+    public void lionCostructorShouldBeNegativeTest() throws Exception {
+        new Lion("Кот", feline);
     }
 
     @Test

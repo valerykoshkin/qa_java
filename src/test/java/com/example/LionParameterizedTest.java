@@ -28,13 +28,13 @@ public class LionParameterizedTest { //Тест работы конструкт�
     public void lionCostructorShouldBePositiveTest() throws Exception {
         Lion lion = new Lion(sex, feline);
         boolean actual = lion.hasMane;
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 
     @Test
     public void lionDoesHaveManeTest() throws Exception {
         Lion lion = new Lion(sex, feline);
         boolean actual = lion.doesHaveMane();
-        assertEquals(actual, expected);
+        assertEquals(expected, actual);
     }
 }
